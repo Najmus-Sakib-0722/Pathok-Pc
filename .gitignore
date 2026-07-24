@@ -1,0 +1,29 @@
+# Gradle / build output
+*.iml
+.gradle/
+build/
+app/build/
+out/
+
+# Android Studio / IntelliJ
+.idea/
+.acside/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Signing / secrets — NEVER commit these
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+key.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
