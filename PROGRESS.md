@@ -14,7 +14,7 @@
 - [ ] Phase 5 — Profile
 - [ ] Phase 6 — Settings + Bottom nav
 - [ ] Phase 7 — Polish/QA
-
+it
 ## পরের নির্দিষ্ট পদক্ষেপ
 Phase 1 শুরু: Auth স্ক্রিন (Login/Signup ট্যাব + Google Sign-In) বানানো, MainActivity-কে WebView-এর বদলে Compose UI দেখানো শুরু করা (auth state অনুযায়ী রাউটিং)।
 
