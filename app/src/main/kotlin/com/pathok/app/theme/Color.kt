@@ -1,4 +1,4 @@
-package com.pathok.app.ui.theme
+package com.pathok.app.theme
 
 import androidx.compose.ui.graphics.Color
 
