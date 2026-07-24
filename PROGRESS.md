@@ -5,7 +5,7 @@
 - [x] Phase 0 (আংশিক) — build.gradle-এ Jetpack Compose + Firebase (Auth, Firestore) dependency যোগ করা হয়েছে
 - [x] minSdkVersion 21 → 23 করা হয়েছে (Firebase Auth 23.1.0-এর জন্য দরকার ছিল)
 - [x] Sync + build সফল হয়েছে
-- [ ] Design tokens (রং/ফন্ট/স্পেসিং) — `index.html`-এর CSS থেকে Theme.kt বানানো — **এটাই পরের কাজ**
+- [x] Design tokens (রং/ফন্ট/স্পেসিং) — `index.html`-এর CSS থেকে Theme.kt বানানো — **এটাই পরের কাজ**
 - [ ] ডেটা মডেল (Book, Chapter, Author, UserProfile)
 - [ ] Phase 1 — Auth (Login/Signup/Google Sign-In)
 - [ ] Phase 2 — Home
