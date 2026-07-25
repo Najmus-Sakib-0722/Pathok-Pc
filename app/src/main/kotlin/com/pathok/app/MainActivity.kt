@@ -23,10 +23,7 @@ class MainActivity : ComponentActivity() {
                 }
 
                 if (isLoggedIn) {
-                    // এখনো Home স্ক্রিন বানানো হয়নি (Phase 2), আপাতত প্লেসহোল্ডার
-                    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        Text("✅ লগইন সফল! (Home স্ক্রিন পরের ধাপে আসবে)")
-                    }
+                    com.pathok.app.main.MainScreen()
                 } else {
                     AuthScreen(onAuthSuccess = { isLoggedIn = true })
                 }
