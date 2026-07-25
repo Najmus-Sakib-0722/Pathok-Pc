@@ -28,6 +28,7 @@ import com.pathok.app.R
 import com.pathok.app.theme.LocalPathokColors
 import androidx.compose.foundation.clickable
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.res.painterResource
 
 @Composable
 fun AuthScreen(onAuthSuccess: () -> Unit) {
@@ -191,8 +192,13 @@ fun AuthScreen(onAuthSuccess: () -> Unit) {
                     .height(48.dp),
                 shape = RoundedCornerShape(10.dp)
             ) {
-                Text("G", fontWeight = FontWeight.Bold, color = Color(0xFF4285F4))
-                Spacer(Modifier.width(8.dp))
+                Icon(
+                    painter = painterResource(id = R.drawable.ic_google_logo),
+                    contentDescription = null,
+                    modifier = Modifier.size(20.dp),
+                    tint = Color.Unspecified
+                )
+                Spacer(Modifier.width(10.dp))
                 Text("Google দিয়ে প্রবেশ করুন", color = Color(0xFF333333))
             }
         }
