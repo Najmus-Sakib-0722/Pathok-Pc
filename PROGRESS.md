@@ -7,7 +7,7 @@
 - [x] Design tokens — Color.kt, Type.kt, Theme.kt (৫টা কালার স্কিম: Sepia/Light/Dark/Night/Forest), প্যাকেজ com.pathok.app.theme
 - [x] ডেটা মডেল — Book.kt, Chapter.kt, Author.kt, UserProfile.kt (প্যাকেজ com.pathok.app.data.model)
 - [x] Build সফল — **Phase 0 সম্পূর্ণ**
-- [ ] Phase 1 — Auth (Login/Signup/Google Sign-In) — **এটাই পরের কাজ**
+- [x] Phase 1 — Auth (Login/Signup/Google Sign-In) — **এটাই পরের কাজ**
 - [ ] Phase 2 — Home
 - [ ] Phase 3 — Book Detail + Reader
 - [ ] Phase 4 — Library
